@@ -1,0 +1,2 @@
+nomainwin
+run "del.bat"
