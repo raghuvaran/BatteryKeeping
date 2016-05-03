@@ -1,0 +1,222 @@
+
+
+Error log timestamp Saturday 02/22/14 05:38:52 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicRunProgram(Object)>>error: <'OS Error: The system...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'D:\battstatus.txt'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'battstatus.txt'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'battstatus.txt'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'battstatus.txt'> in: <aDirectory> 
+Directory>>fileReadOnly: <'battstatus.txt'> 
+BasicFile>>from: <'D:\battstatus.txt'> mode: <'INPUT'> handle: <'#retro'> 
+BasicFile class>>from: <'D:\battstatus.txt'> mode: <'INPUT'> handle: <'#retro'> owner: <aBasicRunProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Monday 02/24/14 01:03:10 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicRunProgram(Object)>>error: <'OS Error: The system...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'D:\battstatus.txt'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'battstatus.txt'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'battstatus.txt'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'battstatus.txt'> in: <aDirectory> 
+Directory>>fileReadOnly: <'battstatus.txt'> 
+BasicFile>>from: <'D:\battstatus.txt'> mode: <'INPUT'> handle: <'#retro'> 
+BasicFile class>>from: <'D:\battstatus.txt'> mode: <'INPUT'> handle: <'#retro'> owner: <aBasicRunProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Sunday 03/02/14 09:19:44 PM
+
+Runtime error: file past end, handle: #char
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicRunProgram(Object)>>error: <'file past end, handl...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicRunProgram(Object)>>error: <'file past end, handl...'> 
+[] in LineInputCommand>>using:
+BlockClosure>>value: <aBasicRunProgram> value: <'#char'> value: <'txt$'> 
+BasicTripleParameterContextHolder>>value
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicRunProgram>>begin
+BasicRunProgram(BasicProgram)>>gotoAndIfStoppedBegin: <'[time1]'> 
+BasicRunProgram(BasicProgram)>>handlerName: <'[time1]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicRunProgram>>handlerName: <'[time1]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicRunProgram(BasicProgram)>>submitHandlerName: <'[time1]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicRunProgram(BasicProgram)>>submitHandlerName: <'[time1]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <197904> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Monday 03/17/14 06:09:28 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicRunProgram(Object)>>error: <'OS Error: The system...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'D:\battinfo.txt'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'battinfo.txt'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'battinfo.txt'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'battinfo.txt'> in: <aDirectory> 
+Directory>>fileReadOnly: <'battinfo.txt'> 
+BasicFile>>from: <'D:\battinfo.txt'> mode: <'INPUT'> handle: <'#char'> 
+BasicFile class>>from: <'D:\battinfo.txt'> mode: <'INPUT'> handle: <'#char'> owner: <aBasicRunProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
